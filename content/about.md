@@ -1,9 +1,6 @@
 ---
-title: "About"
-date: 2021-10-13 12:54:40
-draft: false
-categories:
-  - aboutMe
+title: About
+layout: default
 ---
 
 

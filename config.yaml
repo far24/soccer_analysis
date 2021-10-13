@@ -1,0 +1,39 @@
+baseURL: /
+languageCode: en-us
+title: soccerFA
+theme: smigle
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 2
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 3
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 4
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 5
+
+params:
+  abbrDateFmt: "Jan 2"
+  author: "Fahim Ahmed"
+  brandIconFile: "images/brandIcon.svg"
+  dateFmt: "2006-01-02"
+#  customStylesheets: # Use to override theme styles, like logo size
+#    - "css/custom.css"
+  social:
+    - name: GitHub
+      url: https://github.com/ian-s-mcb
+
+  subtitle: "Description about Blog Author"
